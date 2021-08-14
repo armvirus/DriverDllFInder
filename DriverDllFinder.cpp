@@ -193,10 +193,6 @@ int main(int argument_count, char** argument_array)
 			std::printf("[+] [%s] [%s] > [0x%x]\n", current_driver.path().string().c_str(), argument_array[2], section_size);
 			result_count++;
 		}
-		/*else
-		{
-			std::printf("[NO] [%s] [%s] > [0x%x]\n", current_driver.path().string().c_str(), argument_array[2], section_size);
-		}*/
 	}
 
 	std::printf("[+] found [%i] potential results\n", result_count);
