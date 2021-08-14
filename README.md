@@ -8,7 +8,7 @@ search for a driver/dll module that has a wanted section bigger than the size of
 4. Checks if size of the section is bigger than the size of image
 5. Prints information about the enumerated potential module/driver
 
-![Console Example](./example.png)
+![Console Example](./demo.png)
 
 Note: this project was coded in less than an hour so it might have some bugs and the code is a mess
 
